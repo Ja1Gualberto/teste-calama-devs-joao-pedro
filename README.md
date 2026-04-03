@@ -22,7 +22,7 @@ Queremos avaliar:
 
 ## 📅 Prazo
 
-Você terá **2 dias corridos** para concluir o teste a partir da data de início.
+Você terá **2 dias corridos** para concluir o teste a partir da data de início.  
 **Fique atento à data e ao intervalo de hora que vc deve fazer o pull request.**
 
 ---
@@ -130,11 +130,8 @@ Você pode usar:
 - Google
 - Documentação
 - Vídeos / tutoriais
-- IA
-- 
-**Mas precisa entender o que está fazendo!**
-  
-Você poderá ser questionado(a) sobre seu código.
+- IA (**Mas precisa entender o que está fazendo!**)
+- Você poderá ser questionado(a) sobre seu código.
 
 # 🚀 Mensagem final
 Este teste não é sobre ser perfeito — é sobre mostrar como você aprende, organiza e evolui.
