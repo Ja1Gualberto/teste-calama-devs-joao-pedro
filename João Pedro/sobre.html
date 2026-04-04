@@ -13,16 +13,20 @@
   <div id="header"></div>
   
   <main class="bg-black">
-
+    <div>
+      
+    </div>
   </main>
 
   <div id="footer"></div>
-  
-  <script>
-    fetch('/teste-calama-devs-joao-pedro/João Pedro/components/header.html')
-        .then(response => response.text())
-        .then(data => document.getElementById('header').innerHTML = data)
-  </script>
 </body>
 <script src="index.js"></script>
+<script> 
+  fetch('/teste-calama-devs-joao-pedro/João Pedro/assets/components/header.html')
+        .then(response => response.text())
+        .then(data =>{
+          document.getElementById('header').innerHTML = data;
+          marcarLinkAtual();
+        })
+</script>
 </html>
