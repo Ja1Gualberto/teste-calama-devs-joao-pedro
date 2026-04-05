@@ -30,21 +30,10 @@
   font-weight: 600;
 }
 
-.hero-section {
-  /* Substitua pelo caminho da sua imagem exportada */
-  background-image: url("./assets/svgs/Looper BG.svg");
-  background-size: cover; /* Faz a imagem cobrir toda a área */
-  background-position: bottom center; /* Alinha a imagem na parte inferior, como no design */
-  background-repeat: no-repeat;
 
-  /* Cor de fundo preta do seu design */
-  background-color: #000000;
-  height: 100vh;
-  width: 100%;
-}
 
 body {
-  background-image: url("assets/svgs/Looper\ BG\(3).svg") !important;
+  background-image: url("../assets/svgs/bg-decoration.svg") !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
   background-position: center !important;

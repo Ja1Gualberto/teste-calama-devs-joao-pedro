@@ -6,7 +6,6 @@ function marcarLinkAtual() {
     if (link.href === url_atual) {
       link.classList.remove('text-decoration-none');
       link.classList.add('link-ativo');
-      console.log(link.href, url_atual);
       
     }
   });
