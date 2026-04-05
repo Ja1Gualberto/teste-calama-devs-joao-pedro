@@ -12,9 +12,38 @@
 <body class="bg-black">
   <div id="header"></div>
   
-  <main class="bg-black">
-    <div>
+  <main class="p-100">
+    <div class="container">
       
+      <div class="row mb-5">
+        <div class="col-12">
+          <h1 class="main-title">
+            <span class="text-white">INOVAÇÃO</span><br>
+            <span class="text-white">EM SISTEMAS ACADEMICOS</span>
+          </h1>
+        </div>
+      </div>
+      
+      <div class="row gap-4 gap-md-0">
+        <div class="col-12 col-md-5 pe-md-5">
+          <p class="texto-destaque text-white">
+            A teoria aplicada na prática: nós desenvolvemos soluções que <span class="text-success">geram economia e impacto real para a nossa instituição.</span>
+          </p>
+        </div>
+        <div class="col-12 col-md-7 ps-md-4">
+          <p class="text-white mb-4 font-p">
+            O Calama Devs é um grupo de desenvolvedores de software formado por estudantes e professores do curso de Análise e Desenvolvimento de Sistemas (ADS) do IFRO - Campus Porto Velho Calama, vinculado ao grupo de pesquisa GPMecatrônica.
+          </p>
+          
+          <p class="text-white mb-4 font-p">
+            Liderados por nossos docentes, nosso maior destaque é o PlanIFica. Este sistema completo de gestão de horários automatiza a verificação de choques de aulas, gerencia intervalos e integra dados diretamente das matrizes do Suap.
+          </p>
+          
+          <p class="text-white mb-4 font-p">
+            Mapeando as necessidades reais do campus, o resultado foi tão positivo que o PlanIFica se tornou o software principal de gestão no segundo semestre de 2025, gerando economia e eliminando a necessidade de sistemas de terceiros.
+          </p>
+        </div>
+      </div>
     </div>
   </main>
 
@@ -22,7 +51,7 @@
 </body>
 <script src="index.js"></script>
 <script> 
-  fetch('/teste-calama-devs-joao-pedro/João Pedro/assets/components/header.html')
+  fetch('assets/components/header.html')
         .then(response => response.text())
         .then(data =>{
           document.getElementById('header').innerHTML = data;
