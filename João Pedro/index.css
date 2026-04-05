@@ -1,0 +1,51 @@
+.bg-dark-blue {
+  background-color: #020024;
+  color: white;
+}
+
+.main-title {
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 1.2;
+  letter-spacing: -0.5px;
+}
+
+.font-p{
+  font-size: 20px;
+}
+
+.p-100 {
+  padding: 100px 0;
+}
+
+.texto-destaque {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.link-ativo {
+  text-decoration: underline !important;
+  text-underline-offset: 6px;
+  font-weight: 600;
+}
+
+.hero-section {
+  /* Substitua pelo caminho da sua imagem exportada */
+  background-image: url("./assets/svgs/Looper BG.svg");
+  background-size: cover; /* Faz a imagem cobrir toda a área */
+  background-position: bottom center; /* Alinha a imagem na parte inferior, como no design */
+  background-repeat: no-repeat;
+
+  /* Cor de fundo preta do seu design */
+  background-color: #000000;
+  height: 100vh;
+  width: 100%;
+}
+
+body {
+  background-image: url("assets/svgs/Looper\ BG\(3).svg") !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
