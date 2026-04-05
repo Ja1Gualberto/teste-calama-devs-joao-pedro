@@ -40,7 +40,7 @@
           </p>
           
           <p class="text-white mb-4 font-p">
-            Mapeando as necessidades reais do campus, o resultado foi tão positivo que o PlanIFica se tornou o software principal de gestão no segundo semestre de 2025, gerando economia e eliminando a necessidade de sistemas de terceiros.
+            Unimos tecnologia e vivência acadêmica para converter as demandas reais do campus em soluções web inteligentes.
           </p>
         </div>
       </div>
@@ -48,14 +48,16 @@
   </main>
 
   <div id="footer"></div>
+
+  <script src="index.js"></script>
+  <script> 
+    fetch('assets/components/header.html')
+      .then(response => response.text())
+      .then(data =>{
+        document.getElementById('header').innerHTML = data;
+        marcarLinkAtual();
+      });
+  
+  </script>
 </body>
-<script src="index.js"></script>
-<script> 
-  fetch('assets/components/header.html')
-        .then(response => response.text())
-        .then(data =>{
-          document.getElementById('header').innerHTML = data;
-          marcarLinkAtual();
-        })
-</script>
 </html>
